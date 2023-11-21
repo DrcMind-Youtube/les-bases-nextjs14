@@ -2,8 +2,26 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./ui/Button";
 
-export default function Home() {
-  console.log("Test de composant");
+async function getData() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+
+  if (!res.ok) {
+    throw new Error("Il y a eu une erreur");
+  }
+
+  return res.json();
+}
+
+type Post = {
+  id: number;
+  title: string;
+  body: string;
+  userId: number;
+};
+
+export default async function Home() {
+  // console.log("Test de composant");
+  const posts = await getData();
 
   return (
     <main className="">
@@ -17,6 +35,16 @@ export default function Home() {
       <Link href="/connexion">Connectez-vous </Link>
 
       <Button />
+
+      <div className="container">
+        {posts.map((post: Post) => (
+          <div key={post.id} className="carte">
+            <Link href={`/articles/${post.id}`}>
+              {post.id}. {post.title}
+            </Link>
+          </div>
+        ))}
+      </div>
     </main>
   );
 }
