@@ -9,7 +9,7 @@ type Props = {
 export const revalidate = 1000;
 
 const getData = async (id: number) => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+  const res = await fetch(`http://localhost:4000/articles/${id}`);
   const data = await res.json();
   return data;
 };
@@ -19,8 +19,8 @@ export default async function page({ params }: Props) {
 
   return (
     <div className="container">
-      <h1 className="titre">{data.title}</h1>
-      <p>{data.body}</p>
+      <h1 className="titre">{data.titre}</h1>
+      <p>{data.contenu}</p>
     </div>
   );
 }

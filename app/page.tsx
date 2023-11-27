@@ -3,7 +3,11 @@ import Link from "next/link";
 import Button from "./ui/Button";
 
 async function getData() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const res = await fetch("http://localhost:4000/articles", {
+    next: {
+      revalidate: 0,
+    },
+  });
 
   if (!res.ok) {
     throw new Error("Il y a eu une erreur");
@@ -14,14 +18,16 @@ async function getData() {
 
 type Post = {
   id: number;
-  title: string;
-  body: string;
+  titre: string;
+  contenu: string;
   userId: number;
 };
 
 export default async function Home() {
   // console.log("Test de composant");
   const posts = await getData();
+
+  console.log(posts);
 
   return (
     <main className="">
@@ -40,10 +46,14 @@ export default async function Home() {
         {posts.map((post: Post) => (
           <div key={post.id} className="carte">
             <Link href={`/articles/${post.id}`}>
-              {post.id}. {post.title}
+              {post.id}. {post.titre}
             </Link>
           </div>
         ))}
+      </div>
+
+      <div>
+        <Link href="/articles/create">Ajouter un article</Link>
       </div>
     </main>
   );

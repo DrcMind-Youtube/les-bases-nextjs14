@@ -1,0 +1,89 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "titre": "Les 10 meilleurs jeux de l'année",
+      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
+      "auteur": "Jean Dupont",
+      "date": "2018-01-01",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "titre": "Les héros de l'année",
+      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
+      "auteur": "Jean Dupont",
+      "date": "2018-01-01",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "titre": "Les gens de l'année",
+      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
+      "auteur": "Jean Dupont",
+      "date": "2018-01-01",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "titre": "Les héros de l'année",
+      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
+      "auteur": "Jean Dupont",
+      "date": "2018-01-01",
+      "user_id": 1
+    },
+    {
+      "titre": "",
+      "contenu": "",
+      "auteur": "",
+      "id": 4
+    },
+    {
+      "titre": "sfbsfbsf",
+      "contenu": "fdrnbd",
+      "auteur": "sfbsfbsf",
+      "id": 5
+    },
+    {
+      "titre": "gveq",
+      "contenu": "eqwfqfq",
+      "auteur": "qewfqefqe",
+      "id": 6
+    },
+    {
+      "titre": "Test tache",
+      "contenu": "Disposant de toutes les compétences nécessaires afin de mener à bien ce projet, Nous avons donc choisi la création d’une plateforme de rationalisation des .\nAinsi, les hôpitaux et les communes disposeront d’un outil lui permettant d’archiver et de réaliser des études sur les stages des différents étudiants, et de permettre à ceux-ci de trouver un stage plus rapidement.\nLes étudiants pourront venir consulter le contenu de la plateforme afin de faciliter leur recherche de stage.\nDans un premier temps, nous évoquerons donc la conduite du projet à partir de la création, puis l’analyse, la réalisation de ce projet et enfin les différentes difficultés rencontrées.\n",
+      "auteur": "Tacite bahiga",
+      "date": "2023-11-23T13:05:19.016Z",
+      "id": 7
+    },
+    {
+      "titre": "Jouer au cache cache ",
+      "contenu": "Disposant de toutes les compétences nécessaires afin de mener à bien ce projet, Nous avons donc choisi la création d’une plateforme de rationalisation des .\nAinsi, les hôpitaux et les communes disposeront d’un outil lui permettant d’archiver et de réaliser des études sur les stages des différents étudiants, et de permettre à ceux-ci de trouver un stage plus rapidement.\nLes étudiants pourront venir consulter le contenu de la plateforme afin de faciliter leur recherche de stage.\nDans un premier temps, nous évoquerons donc la conduite du projet à partir de la création, puis l’analyse, la réalisation de ce projet et enfin les différentes difficultés rencontrées.\n",
+      "auteur": "David",
+      "date": "2023-11-23T13:05:31.904Z",
+      "id": 8
+    },
+    {
+      "titre": "Jouer au cache cache ",
+      "contenu": "Disposant de toutes les compétences nécessaires afin de mener à bien ce projet, Nous avons donc choisi la création d’une plateforme de rationalisation des .\nAinsi, les hôpitaux et les communes disposeront d’un outil lui permettant d’archiver et de réaliser des études sur les stages des différents étudiants, et de permettre à ceux-ci de trouver un stage plus rapidement.\nLes étudiants pourront venir consulter le contenu de la plateforme afin de faciliter leur recherche de stage.\nDans un premier temps, nous évoquerons donc la conduite du projet à partir de la création, puis l’analyse, la réalisation de ce projet et enfin les différentes difficultés rencontrées.\n",
+      "auteur": "David",
+      "date": "2023-11-23T13:07:38.260Z",
+      "id": 9
+    },
+    {
+      "id": 614,
+      "titre": "Jouer au cache cache ",
+      "contenu": "Disposant de toutes les compétences nécessaires afin de mener à bien ce projet, Nous avons donc choisi la création d’une plateforme de rationalisation des .\nAinsi, les hôpitaux et les communes disposeront d’un outil lui permettant d’archiver et de réaliser des études sur les stages des différents étudiants, et de permettre à ceux-ci de trouver un stage plus rapidement.\nLes étudiants pourront venir consulter le contenu de la plateforme afin de faciliter leur recherche de stage.\nDans un premier temps, nous évoquerons donc la conduite du projet à partir de la création, puis l’analyse, la réalisation de ce projet et enfin les différentes difficultés rencontrées.\n",
+      "auteur": "David",
+      "date": "2023-11-23T13:08:55.718Z"
+    },
+    {
+      "id": 389,
+      "titre": "hey",
+      "contenu": "Disposant de toutes les compétences nécessaires afin de mener à bien ce projet, Nous avons donc choisi la création d’une plateforme de rationalisation des .\nAinsi, les hôpitaux et les communes disposeront d’un outil lui permettant d’archiver et de réaliser des études sur les stages des différents étudiants, et de permettre à ceux-ci de trouver un stage plus rapidement.\nLes étudiants pourront venir consulter le contenu de la plateforme afin de faciliter leur recherche de stage.\nDans un premier temps, nous évoquerons donc la conduite du projet à partir de la création, puis l’analyse, la réalisation de ce projet et enfin les différentes difficultés rencontrées.\n",
+      "auteur": "Diedone",
+      "date": "2023-11-23T13:09:21.631Z"
+    }
+  ]
+}
