@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import React from "react";
+import styles from "./formData.module.css";
 
 type Props = {};
 
@@ -32,22 +33,22 @@ export default function Ajouter({}: Props) {
   };
   return (
     <div className="container">
-      <form onSubmit={handleSubmit} className="form">
-        <h1 className="titre">Ajouter un article</h1>
-        <div className="form-group">
+      <form onSubmit={handleSubmit} className={styles.form}>
+        <h1 className={styles.titre}>Ajouter un article</h1>
+        <div className={styles.formGroup}>
           <label htmlFor="titre">Titre</label>
           <input type="text" name="titre" id="titre" />
         </div>
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="contenu">Contenu</label>
           <textarea name="contenu" id="contenu" cols={30} rows={10}></textarea>
         </div>
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="auteur">Auteur</label>
           <input type="text" name="auteur" id="auteur" />
         </div>
         <div>
-          <button type="submit" className="btn">
+          <button type="submit" className={styles.btn}>
             Ajouter
           </button>
         </div>
