@@ -1,77 +1,32 @@
-import Image from "next/image";
 import Link from "next/link";
-import Button from "./ui/Button";
 
-// Creation d'une fonction pour chercher les données
-const getData = async () => {
-  // Revalidation
-  const res = await fetch("http://localhost:4000/articles", {
-    next: {
-      revalidate: 0,
-    },
-  });
-  const data = await res.json();
-  return data;
-};
-
-type Article = {
-  id: number;
-  titre: string;
-  contenu: string;
-  date: string;
-  user_id: number;
-  lienImage: string;
-};
-
-export default async function Home() {
-  const articles = await getData();
+export default function Home() {
   return (
-    <main className="p-40">
-      <h2 className="text-purple-400">Bienvenue à tout le monde</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, facere.
-        Ducimus quasi dolorem fuga! Laborum doloribus animi et esse maxime,
-        quos, quis corporis aliquam labore, dolorem blanditiis incidunt
-        praesentium est?
-      </p>
-      <Link href="/connexion">Connectez-vous </Link>
-
-      <Button />
-
-      <div className="flex gap-4 flex-wrap">
-        {
-          // Affichage des données
-          articles.map((article: Article) => (
-            <div className="card w-96 bg-base-100 shadow-xl">
-              <figure>
-                <Image
-                  src={article.lienImage}
-                  width={250}
-                  height={250}
-                  alt="Shoes"
-                  className="w-full  object-cover"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">{article.titre}</h2>
-
-                <div className="card-actions justify-end">
-                  <Link
-                    href={`/articles/${article.id}`}
-                    className="btn btn-primary"
-                  >
-                    Visitez l'article
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))
-        }
-      </div>
-
-      <Link href="/articles/create" className="btn btn-success mt-5">
-        Ajouter un article
-      </Link>
+    <main className="w-full h-screen">
+      <section className="bg-white dark:bg-gray-900 h-screen flex justify-center items-center">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            Nous vous aidons à <br className="hidden md:block" /> manager votre{" "}
+            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-500">
+              équipe
+            </span>
+          </h1>
+          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+            Manager vos équipes n'a jamais été aussi simple. Nous vous aidons à
+            gérer vos équipes et à les rendre plus productives avec des outils
+            simples et efficaces.
+          </p>
+          <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <Link
+              href="/dashboard"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              {/* login svg */}
+              Connectez-vous
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

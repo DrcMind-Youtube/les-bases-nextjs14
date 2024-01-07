@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Raleway, Ubuntu } from "next/font/google";
 import "./globals.css";
+import { ClerkProvider } from "@clerk/nextjs";
+import { Toaster } from "sonner";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -15,8 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="cupcake">
-      <body className={raleway.className}>{children}</body>
+    <html lang="en" data-theme="night">
+      <body className={raleway.className}>
+        <ClerkProvider>
+          <Toaster />
+          {children}
+        </ClerkProvider>
+      </body>
     </html>
   );
 }
