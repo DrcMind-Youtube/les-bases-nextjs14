@@ -1,15 +1,6 @@
 {
   "articles": [
     {
-      "id": 1,
-      "titre": "Les 10 meilleurs jeux de l'année",
-      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
-      "auteur": "Jean Dupont",
-      "date": "2018-01-01",
-      "user_id": 1,
-      "lienImage": "https://business.leeds.ac.uk/images/Disrupting_Tech_shutterstock_566877226_800_x_400.jpg"
-    },
-    {
       "id": 2,
       "titre": "Les héros de l'année",
       "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
@@ -51,6 +42,13 @@
       "date": "2023-11-23T13:07:38.260Z",
       "id": 9,
       "lienImage": "https://business.leeds.ac.uk/images/Disrupting_Tech_shutterstock_566877226_800_x_400.jpg"
+    },
+    {
+      "id": 466,
+      "titre": "Test d'API en nextJS",
+      "contenu": "test contenu",
+      "auteur": "Aksanti ",
+      "date": "2024-01-23T20:47:50.413Z"
     }
   ]
 }

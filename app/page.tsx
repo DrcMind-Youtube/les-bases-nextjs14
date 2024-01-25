@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 // Creation d'une fonction pour chercher les données
 const getData = async () => {
   // Revalidation
-  const res = await fetch("http://localhost:4000/articles", {
+  const res = await fetch("http://localhost:3000/api/articles", {
     next: {
       revalidate: 0,
     },
@@ -24,7 +24,8 @@ type Article = {
 };
 
 export default async function Home() {
-  const articles = await getData();
+  const { data: articles } = await getData();
+  console.log(articles);
   return (
     <main className="p-40">
       <h2 className="text-purple-400">Bienvenue à tout le monde</h2>
