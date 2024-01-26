@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./ui/Button";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cours Nextjs | Accueil ",
+  description: "Cours Nextjs",
+};
 
 // Creation d'une fonction pour chercher les données
 const getData = async () => {
